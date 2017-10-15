@@ -1,6 +1,6 @@
 {
   "name": "grace-consolidate",
-  "version": "0.14.3",
+  "version": "0.14.5",
   "description": "Template engine consolidation library for koa-grace",
   "keywords": [
     "template",
@@ -8,9 +8,22 @@
     "view"
   ],
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "license": "MIT",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/visionmedia/consolidate.js.git"
+  },
+  "dependencies": {
+    "bluebird": "^3.1.1"
+  },
   "devDependencies": {
     "arc-templates": "^0.5.1",
     "atpl": ">=0.7.6",
+    "babel-core": "^6.7.6",
+    "babel-preset-react": "^6.5.0",
+    "bracket-template": "^1.1.4",
+    "coffee-script": "^1.11.1",
     "dot": "^1.0.1",
     "dust": "^0.3.0",
     "dustjs-helpers": "^1.1.1",
@@ -18,6 +31,10 @@
     "eco": "^1.1.0-rc-3",
     "ect": "^0.5.9",
     "ejs": "^2.3.4",
+    "eslint": "^3.7.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-standard": "^2.0.1",
     "haml-coffee": "^1.4.0",
     "hamlet": "^0.3.3",
     "hamljs": "^0.6.1",
@@ -26,42 +43,56 @@
     "htmling": "^0.0.7",
     "jade": "^1.9.1",
     "jazz": "^0.0.18",
-    "jqtpl": "^1.1.0",
+    "jqtpl": "~1.1.0",
     "just": "^0.1.8",
+    "liquid-node": "^2.6.1",
     "liquor": "^0.0.5",
     "lodash": "^4.0.0",
-    "mocha": "^2.3.4",
+    "marko": "^3.12.0",
+    "mocha": "^3.1.2",
     "mote": "^0.2.0",
     "mustache": "^2.2.1",
-    "nunjucks": "^2.3.0",
-    "pug": "^0.1.0",
+    "nunjucks": "^3.0.0",
+    "plates": "~0.4.8",
+    "pug": "^2.0.0-beta6",
     "qejs": "^3.0.5",
-    "ractive": "^0.6.1",
-    "react": "^0.14.6",
-    "react-tools": "^0.13.0",
+    "ractive": "^0.8.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
     "should": "*",
     "slm": "^0.5.0",
+    "swig-templates": "^2.0.2",
     "swig": "^1.4.1",
+<<<<<<< HEAD
     "swiger": "^0.0.1",
+=======
+    "teacup": "^2.0.0",
+>>>>>>> 97c36e0494d2d86b3d91d4af4f1894d94268d169
     "templayed": ">=0.2.3",
-    "tinyliquid": "^0.2.22",
+    "tinyliquid": "^0.2.30",
     "toffee": "^0.1.12",
-    "twig": "^0.8.2",
+    "twig": "^0.10.0",
     "underscore": "^1.3.3",
-    "vash": "^0.8.7",
+    "vash": "^0.12.2",
     "walrus": "^0.10.1",
-    "whiskers": "^0.3.3"
+    "whiskers": "^0.4.0",
+    "velocityjs": "^0.8.2"
   },
+<<<<<<< HEAD
   "main": "index",
   "repository": {
     "type": "git",
     "url": "https://github.com/koa-grace/grace-consolidate.git"
   },
   "license": "MIT",
+=======
+  "keywords": [
+    "engine",
+    "template",
+    "view"
+  ],
+>>>>>>> 97c36e0494d2d86b3d91d4af4f1894d94268d169
   "scripts": {
     "test": "mocha"
-  },
-  "dependencies": {
-    "bluebird": "^3.1.1"
   }
 }
