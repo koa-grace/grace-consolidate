@@ -63,11 +63,8 @@
     "slm": "^0.5.0",
     "swig-templates": "^2.0.2",
     "swig": "^1.4.1",
-<<<<<<< HEAD
     "swiger": "^0.0.1",
-=======
     "teacup": "^2.0.0",
->>>>>>> 97c36e0494d2d86b3d91d4af4f1894d94268d169
     "templayed": ">=0.2.3",
     "tinyliquid": "^0.2.30",
     "toffee": "^0.1.12",
@@ -78,20 +75,12 @@
     "whiskers": "^0.4.0",
     "velocityjs": "^0.8.2"
   },
-<<<<<<< HEAD
   "main": "index",
   "repository": {
     "type": "git",
     "url": "https://github.com/koa-grace/grace-consolidate.git"
   },
   "license": "MIT",
-=======
-  "keywords": [
-    "engine",
-    "template",
-    "view"
-  ],
->>>>>>> 97c36e0494d2d86b3d91d4af4f1894d94268d169
   "scripts": {
     "test": "mocha"
   }
